@@ -710,7 +710,7 @@ nav {
   margin-left: 10px;
   width: 24px;
   height: 24px;
-  background-image: url(/images/icon_send.svg);
+  background-image: url(../../images/icon_send.svg);
 }
 
 .developers.container {
@@ -905,6 +905,9 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -948,8 +951,7 @@ nav {
   border-radius: 50%;
 }
 
-.close-button:hover,
-.close-button:focus {
+.close-button:hover, .close-button:focus {
   fill: #2196f3;
   outline: none;
 }
@@ -966,6 +968,7 @@ nav {
           align-items: center;
   width: 200px;
   height: 50px;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -1113,7 +1116,7 @@ nav {
 .checkbox:checked + .checkbox-icon {
   background-color: #2196f3;
   border-color: #2196f3;
-  background-image: url("/images/icon_check.svg");
+  background-image: url("../../images/icon_check.svg");
   background-size: contain;
   background-origin: border-box;
 }
@@ -1125,7 +1128,6 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;

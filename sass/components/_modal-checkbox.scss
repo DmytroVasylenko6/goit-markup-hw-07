@@ -11,7 +11,7 @@
   &:checked + .checkbox-icon {
     background-color: $acent-color;
     border-color: $acent-color;
-    background-image: url('/images/icon_check.svg');
+    background-image: url('../../images/icon_check.svg');
     background-size: contain;
     background-origin: border-box;
   }
@@ -20,7 +20,6 @@
 .agreement {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 30px;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;

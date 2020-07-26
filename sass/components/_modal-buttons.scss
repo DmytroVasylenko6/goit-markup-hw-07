@@ -11,12 +11,12 @@
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-}
 
-.close-button:hover,
-.close-button:focus {
-  fill: $acent-color;
-  outline: none;
+  &:hover,
+  &:focus {
+    fill: $acent-color;
+    outline: none;
+  }
 }
 
 .send-button {
@@ -25,6 +25,7 @@
   align-items: center;
   width: 200px;
   height: 50px;
+  margin-top: 30px;
 
   font-weight: bold;
   font-size: 16px;
